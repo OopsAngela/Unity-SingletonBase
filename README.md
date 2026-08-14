@@ -56,6 +56,4 @@ GameManager.Instance.DoSomething();
 - 该单例基于场景中的 GameObject，**不会跨场景持久化**。如需跨场景保留，请在子类 `Awake` 中调用 `DontDestroyOnLoad(gameObject)`。
 - 多个同类型组件挂在场景里时，以第一个被 `Awake` 初始化的实例为准。
 
-## 许可证
 
-> 请在此填写本项目适用的许可证（如基于 EPL-1.0 的二次开发，请保留原许可证声明）。
